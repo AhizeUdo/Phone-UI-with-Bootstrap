@@ -10,7 +10,6 @@ function addItem(e){
 
     // Get the input value
     var newItem = document.getElementById('item').value;
-    var scnItem = document.getElementById('scnItem').value
     var thrdItem = document.getElementById('thrdItem').value
     var furdItem = document.getElementById('furdItem').value
     // Create new li element
@@ -22,7 +21,6 @@ function addItem(e){
     // Add text node with input
     // li.appendChild(document.createTextNode('Names: ' + newItem  + '   Mobile Number: ' + scnItem + '    Email Address: ' + thrdItem + ''));
     li.appendChild(document.createTextNode('   First name: '  + newItem));
-    li.appendChild(document.createTextNode('   Second name: ' + scnItem));
     li.appendChild(document.createTextNode('   Mobile No: ' + thrdItem));
     li.appendChild(document.createTextNode('   Email address: ' + furdItem));
     
